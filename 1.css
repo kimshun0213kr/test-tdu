@@ -1,10 +1,33 @@
 @charset "utf-8";
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
 .html {
 	padding: 0px;
 
 }
 .header {
 	background-color: #0000FE;
+	color:#ffffff;
+	height: 75px;
+	width: 100%;
+}
+.th {
+	border-right: solid 3px blue;
+}
+.a {
+	background-color: aliceblue;
+}
+.footer {
+	background-color: #00FDFF;
+	height:30px;
+	width:100%;
+}
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+.html {
+	padding: 0px;
+
+}
+.header {
+	background-color: #000000;
 	color:#ffffff;
 	height: 75px;
 	width: 100%;
