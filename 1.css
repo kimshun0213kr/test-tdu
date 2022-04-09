@@ -1,5 +1,5 @@
 @charset "utf-8";
-@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+@media screen and (min-width: 480px) { /*ウィンドウ幅が767px以上の場合に適用*/
 .html {
 	padding: 0px;
 
